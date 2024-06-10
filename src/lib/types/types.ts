@@ -1,14 +1,7 @@
 export type CarManufacturer =
   | "Lamborghini"
   | "Ferrari"
-  | "Ford"
-  | "Porsche"
-  | "Dodge"
-  | "Lexus"
-  | "Nissan"
-  | "Mercedes-Benz"
-  | "Chevrolet"
-  | "Pagani"
+  
   | "Bugatti";
 
 

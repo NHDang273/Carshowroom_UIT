@@ -45,9 +45,8 @@ const SceneLandingCarSelection = () => {
                     <img
                       src={car.logo}
                       alt={`${car.manufacturer} ${car.model}`}
-                      height={40}
-                      width={40}
-                      
+                      height={150}
+                      width={150}
                     />
                   </CarouselItem>
                 ) : (

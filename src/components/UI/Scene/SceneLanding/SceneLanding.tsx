@@ -30,7 +30,7 @@ const SceneLanding = () => {
         {!isInCarSelection && <SceneLandingPaintSelection />}
         {!isInCarSelection && !isInPaintSelection && (
           <button className="ui-btn" onClick={() => UIHandler()}>
-            <BiSolidDetail color={iconColor} size={iconSize} />
+            <BiSolidDetail color={iconColor} size={iconSize - 4} /> {/* Adjusting icon size */}
           </button>
         )}
       </div>

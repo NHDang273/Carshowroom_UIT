@@ -6,3 +6,8 @@
 .car-selection-list {
   @apply flex flex-row;
 }
+.small-button {
+  padding: 0.2rem; /* Giảm kích thước padding để làm cho nút nhỏ hơn */
+  font-size: 0.8rem; /* Giảm kích thước font để biểu tượng nhỏ hơn */
+  line-height: 1; /* Điều chỉnh line-height để biểu tượng không bị dãn ra */
+}

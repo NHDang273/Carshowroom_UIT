@@ -116,7 +116,7 @@ const Scene = () => {
                       ref={audioRef}
                       url={selectedCar.sound}
                       position={
-                        selectedCar.manufacturer === "Dodge"
+                        selectedCar.manufacturer === "Huracan"
                           ? [0, -1, -2]
                           : [0, -1, -9]
                       }

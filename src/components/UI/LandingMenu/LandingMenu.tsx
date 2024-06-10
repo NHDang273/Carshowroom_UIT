@@ -10,8 +10,8 @@ const Landing = () => {
         <hgroup>
           <h1 className="main-title">Car Showroom - Group 15</h1>
           <h3 className="sub-title"> 21521815 - Trần Quốc An</h3>
-          <h3 className="sub-title"> 21521815 - Trần Quốc An</h3>
-          <h3 className="sub-title"> 21521815 - Trần Quốc An</h3>
+          <h3 className="sub-title"> 21521920 - Nguyễn Hải Đăng</h3>
+          <h3 className="sub-title"> 21521388 - Võ Thái Sơn</h3>
         </hgroup>
         <button className="ui-btn" onClick={() => setIsInLandingMenu(false)}>
           Start
