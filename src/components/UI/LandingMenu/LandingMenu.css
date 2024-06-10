@@ -6,25 +6,26 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .menu-container {
-  @apply flex flex-col justify-center items-center md:items-end p-2 text-center md:text-right gap-8 mx-auto w-full;
+  @apply flex flex-col justify-start items-start p-2 text-left gap-8;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 16px; /* Optional: to add some space from the edges */
 }
-
-
-.welcome-text {
-  @apply text-white/50 text-center sm:text-left;
-}
-
 
 .main-title {
-  @apply text-white/80 text-4xl sm:text-6xl lg:text-7xl uppercase;
+  @apply text-white/80 text-4xl sm:text-6xl lg:text-7xl uppercase text-left;
+  color: rgb(0, 0, 35);
   font-family: "Fjalla One", "sans-setif";
   font-weight: 400;
   font-style: normal;
 }
 
 .sub-title {
-  @apply text-white/50 text-center md:text-right mt-8 md:mt-0;
+  @apply text-white/50 text-center md:text-left mt-8 md:mt-0;
+  color: rgb(0, 0, 35);
 }
 
 .landing-btn {
@@ -32,9 +33,9 @@
 }
 
 .fade-in {
-  animation: fade-in 0.5s;
+  animation: fade-in 0.3s;
 }
 
 .fade-out {
-  animation: fade-out 0.5s;
+  animation: fade-out 0.3s;
 }

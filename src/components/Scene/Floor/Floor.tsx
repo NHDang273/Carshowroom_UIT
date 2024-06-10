@@ -5,22 +5,22 @@ import { TextureLoader } from "three";
 import { SpotlightProp } from "../../../lib/models/ModelImports";
 
 const Floor = () => {
-  const [aoMap, colorMap, disMap, normGlMap, roughnessMap] = useLoader(
+  const [aoMap, colorMap, disMap, roughnessMap] = useLoader(
     TextureLoader,
     [
-      "/floor/Concrete033_1K-JPG_AmbientOcclusion.webp",
-      "/floor/Concrete033_1K-JPG_Color.webp",
-      "/floor/Concrete033_1K-JPG_Displacement.webp",
-      "/floor/Concrete033_1K-JPG_NormalGL.webp",
-      "/floor/Concrete033_1K-JPG_Roughness.webp",
+      "/floor/AmbientOcclusion.webp",
+      "/floor/111.jpg",
+      "/floor/Displacement.webp",
+      "/floor/NormalGL.webp",
+      "/floor/Roughness.webp",
     ]
   );
 
-  const scale = 12;
+  const scale = 25;
   const planeWidth = 250;
   const planeHeight = 250;
 
-  [aoMap, colorMap, disMap, normGlMap, roughnessMap].forEach((tex) => {
+  [aoMap, colorMap, disMap, roughnessMap].forEach((tex) => {
     tex.wrapS = tex.wrapT = THREE.RepeatWrapping;
     tex.repeat.set(scale, scale);
   });
@@ -31,8 +31,6 @@ const Floor = () => {
     map: colorMap,
     displacementMap: disMap,
     displacementScale: 1,
-    normalMap: normGlMap,
-    normalMapType: THREE.TangentSpaceNormalMap,
     roughnessMap: roughnessMap,
     roughness: 1,
   });
