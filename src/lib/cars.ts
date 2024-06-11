@@ -230,38 +230,70 @@ export const cars = [
     year: "2021",
     sound: huracanSound,
     colors: [
+      //{
+      //  name: "temp1",
+      //  hexCode: ["#6B685C", "#7F8282"]
+      //},
       {
-        name: "Black",
-        hexCode: "#000000",
+        name: "Argento Nurburgring",
+        hexCode: "#999C9C",
       },
       {
-        name: "White",
-        hexCode: "#FFFFFF",
+        name: "Bianco Avus",
+        hexCode: "#BBBEB0",
       },
       {
-        name: "Blue",
-        hexCode: "#0000FF",
+        name: "Blu Abu Dhabi",
+        hexCode: "#002A3B",
       },
       {
-        name: "Red",
-        hexCode: "#FF0000",
+        name: "Arancio Borealis",
+        hexCode: "#FBA400",
       },
       {
-        name: "Yellow",
-        hexCode: "#FFFF00",
+        name: "Blu Caelum",
+        hexCode: "#002669",
       },
       {
-        name: "Green",
-        hexCode: "#008000",
+        name: "Grigio Admetus",
+        hexCode: "#6B685C",
       },
       {
-        name: "Orange",
-        hexCode: "#FFA500",
+        name: "Grigio Lynx",
+        hexCode: "#707176",
       },
-      // {
-      //   name: "temp1",
-      //   hexCode: ["#000000", "#FFA500"]
-      // }
+      {
+        name: "Grigio Nimbus",
+        hexCode: "#7F8282",
+      },
+      {
+        name: "Giallo Inti",
+        hexCode: "#AA850E",
+      },
+      {
+        name: "Giallo Horus",
+        hexCode: "#947205",
+      },
+      {
+        name: "Nero Helene",
+        hexCode: "#151618",
+      },
+      {
+        name: "Nero Nemesis",
+        hexCode: "#312F30",
+      },
+      {
+        name: "Nero Noctis",
+        hexCode: "#292927",
+      },
+      {
+        name: "Rosso Mars",
+        hexCode: "#BE0001",
+      },
+      {
+        name: "Verde Mantis",
+        hexCode: "#6BB716",
+      }
     ],
     displacement: "8,000 cc",
     maxPower: "1,500 BHP",

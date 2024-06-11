@@ -33,6 +33,7 @@ const Floor = () => {
     displacementScale: 1,
     roughnessMap: roughnessMap,
     roughness: 1,
+    metalness: 0.3,
   });
 
   const spotlightProps: {

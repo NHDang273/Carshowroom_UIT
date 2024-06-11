@@ -45,14 +45,14 @@ const ShowcaseHeader = () => {
           className="ui-btn"
           aria-label="Start engine."
         >
-          <BiSolidTachometer size={iconSize} color={iconColor} />
+          {"Start engine"}
         </button>
         <button
           onClick={toggleUI}
           className="ui-btn"
           aria-label="Toggle the user interface."
         >
-          {isUIVisible === false ? "Show UI" : "Hide UI"}
+          {isUIVisible === false ? "Show Information" : "Hide Information"}
         </button>
       </div>
     </header>
