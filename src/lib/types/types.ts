@@ -10,6 +10,7 @@ export type LoaderProps = {
     manufacturer: string;
     model: string;
     logo: string;
+    video: string;
   };
 };
 

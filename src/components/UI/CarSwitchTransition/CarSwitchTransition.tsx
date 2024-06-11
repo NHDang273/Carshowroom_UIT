@@ -22,9 +22,7 @@ const CarSwitchTransition = ({ selectedCar }: LoaderProps) => {
         alt={selectedCar.manufacturer}
         className={`${pulsateIcon ? "animate-pulse" : ""}`}
       />
-      <video className="full-screen-video" autoPlay muted loop>
-        <source src="public\Video\intro.mp4" type="video/mp4" />
-        Your browser does not support the video tag.
+      <video className="full-screen-video" autoPlay muted loop src={selectedCar.video}>
       </video>
     </Html>
   );

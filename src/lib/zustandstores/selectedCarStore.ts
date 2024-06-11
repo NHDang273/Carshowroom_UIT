@@ -4,6 +4,7 @@ import { CarColorProps } from "../types/types";
 
 type SelectedCarProps = {
   logo: string;
+  video: string;
   country: string;
   manufacturer: string;
   model: string;
@@ -28,6 +29,7 @@ export const useSelectedCarStore = create<{
 }>()((set) => ({
   selectedCar: {
     logo: car1.logo,
+    video: car1.video,
     country: car1.country,
     manufacturer: car1.manufacturer,
     model: car1.model,

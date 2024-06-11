@@ -1,5 +1,6 @@
 
 import lamboLogo from "/logos/lambo.webp";
+
 import ferrariLogo from "/logos/ferrari.webp";
 
 import bugatti from "/logos/bugatti.webp"
@@ -8,16 +9,23 @@ import italy from "/countryflags/it.svg"
 
 import germany from "/countryflags/de.svg"
 
+import chiron_intro from "/Video/intro_chiron.mp4"
+
+import f12_intro from "/Video/intro_f12.mp4"
+
+import lb_intro from "/Video/intro_lambor.mp4"
 
 import f12Sound from "/audio/carsounds/f12.mp3";
 
 import huracanSound from "/audio/carsounds/huracan.mp3";
 
+import viper from "/audio/carsounds/viper.mp3";
 
 export const cars = [
   
   {
     logo: ferrariLogo,
+    video: f12_intro,
     country: italy,
     manufacturer: "Ferrari",
     model: "F12berlinetta",
@@ -123,10 +131,11 @@ export const cars = [
  
   {
     logo: lamboLogo,
+    video: lb_intro,
     country: italy,
     manufacturer: "Lamborghini",
     model: "Huracán",
-    sound: huracanSound,
+    sound: viper,
     year: "2015",
     colors: [
       {
@@ -224,6 +233,7 @@ export const cars = [
 
   {
     logo: bugatti,
+    video: chiron_intro,
     country: germany,
     manufacturer: "Bugatti",
     model: "Chiron",
