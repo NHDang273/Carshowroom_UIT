@@ -258,6 +258,10 @@ export const cars = [
         name: "Orange",
         hexCode: "#FFA500",
       },
+      // {
+      //   name: "temp1",
+      //   hexCode: ["#000000", "#FFA500"]
+      // }
     ],
     displacement: "8,000 cc",
     maxPower: "1,500 BHP",

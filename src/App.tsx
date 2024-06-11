@@ -15,7 +15,7 @@ const App = () => {
           shadows
           gl={{
             alpha: true,
-            toneMappingExposure: 0.5,
+            toneMappingExposure: 0.75,
           }}
           style={{ background: "black" }}
           frameloop="demand"
